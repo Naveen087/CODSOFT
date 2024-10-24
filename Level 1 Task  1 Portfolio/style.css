@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  margin-top: -5%;
+}
+
+.column {
+  flex: 33%;
+  padding: 5px;
+}
+
+.progressBar {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(192, 192, 192);
+  border-radius: 15px;
+  width: 30%;
+  border: none;
+}
+.skill {
+  background-color: rgba(255, 51, 51, 0.85);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1px;
+  font-size: 10px;
+  color: white;
+}
+
+.html {
+  width: 98%;
+}
+
+.css {
+  width: 25%;
+}
+
+.js {
+  width: 3%;
+}
+
+.java {
+  width: 92%;
+}
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.95);
+  border-radius: 10px;
+  border: 0px;
+  padding: 2px 3px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(168, 11, 11, 0.95);
+}
+footer {
+  text-align: center;
+}
+a {
+  display: block;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+}
+copyright {
+  display: inline-block;
+}
+h3 {
+  font-weight: lighter;
+  text-align: center;
+}
+div {
+  margin-top: 10%;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+samp {
+  display: block;
+  text-align: center;
+}
+.ci {
+  display: block;
+  text-align: center;
+  font-size: large;
+}
+body {
+  background-color: #faf9f6;
+}
